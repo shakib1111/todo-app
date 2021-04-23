@@ -18,6 +18,8 @@
     //     e.stopPropagation();
     //     e.target.remove();
     // });
+    //    });
+
 
     ul.addEventListener('click',e => {
         // console.log('event in ul')
