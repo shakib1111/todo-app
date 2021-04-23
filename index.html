@@ -10,22 +10,33 @@
     
 </head>
 <body>
-    <h1>To-do list</h1>
-    
-    <ul>
-        <li>Buy Bread and Milk</li>
-        <li>Go to gym</li>
-        <li>Read News</li>
-        <li>Complete javascript project</li>
+    <di class="container">
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">Todo List</h1>
+            <form class="search">
+                <input type="text" class="form-control m-auto" name="search" placeholder="add todos">
+            </form>
+        </header>
+    </di>
+
+    <ul class="list-group todos mx auto text-light">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>Do JavaScript project</span>
+            <i class="fas fa-trash delete"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>Play football</span>
+            <i class="fas fa-trash delete"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>Read some books</span>
+            <i class="fas fa-trash delete"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>Buy milk</span>
+            <i class="fas fa-trash delete"></i>
+        </li>
     </ul>
-
-    <form class="text-box" >
-        <input type="text" placeholder="Add a new To-Do......">
-    </form>
-
-<button>Add a To-Do</button>    
-
-
 
 
     <script src="app.js"></script>
