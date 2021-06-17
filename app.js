@@ -44,6 +44,7 @@ const filtertodos=(term)=>{
 }; 
 
 search.addEventListener('keyup',()=>{
+    e.preventDefault();
     const term=search.value.trim().toLowerCase();
     filtertodos(term);
 });
